@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="230057f9-fa5d-4f26-80a2-e7c85821e772" name="Changes" comment="StereoType Practice&#10;-Added runner">
-      <change afterPath="$PROJECT_DIR$/spring-IoC-review/src/main/java/stereoType_Practice/model/ExtraHours.java" afterDir="false" />
+    <list default="true" id="230057f9-fa5d-4f26-80a2-e7c85821e772" name="Changes" comment="StereoType Practice&#10;-Dependency injection">
+      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/loosely_coupled/CydeoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/loosely_coupled/FullTimeMentor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/loosely_coupled/Mentor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/loosely_coupled/MentorAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/loosely_coupled/PartTimeMentor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/tightly_coupled/CydeoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/tightly_coupled/FullTimeMentor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/tightly_coupled/Mentor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/tightly_coupled/PartTimeMentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-IoC-review/src/main/java/stereoType_Practice/StereoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-IoC-review/src/main/java/stereoType_Practice/StereoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-IoC-review/src/main/java/stereoType_Practice/model/DataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-IoC-review/src/main/java/stereoType_Practice/model/DataStructure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +33,31 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "camizci"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4caafb5b-7ec9-4eff-a55b-bd5b4fa2f51d" />
+        <option name="url" value="https://github.com/camizci/mySpringProject.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2UqTXZ8a9mZmcnW5zifSacgYCUu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,13 +71,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "bean__pratice",
+    "git-widget-placeholder": "Spring-Review",
     "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/reca/IdeaProjects/JD-AL005/mySpringProject/mySpringProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
+    "spring.configuration.checksum": "51d7a99a5dbe902ce3f0c09146cff9b2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,6 +111,9 @@
       <list>
         <item itemvalue="Application.StereoApp" />
         <item itemvalue="Application.AccountApp" />
+        <item itemvalue="Application.StereoApp" />
+        <item itemvalue="Application.AccountApp" />
+        <item itemvalue="Application.StereoApp" />
       </list>
     </recent_temporary>
   </component>
@@ -93,6 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693666151967</updated>
       <workItem from="1693666153012" duration="7268000" />
+      <workItem from="1693678028424" duration="1428000" />
     </task>
     <task id="LOCAL-00001" summary="Created project&#10;-Added a new module&#10;-Added bean_practice">
       <option name="closed" value="true" />
@@ -126,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693673026649</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="StereoType Practice&#10;-Dependency injection">
+      <option name="closed" value="true" />
+      <created>1693678249738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693678249738</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +190,11 @@
     <MESSAGE value="Bean_practice&#10;-Added runner for classes" />
     <MESSAGE value="StereoType Practice&#10;-" />
     <MESSAGE value="StereoType Practice&#10;-Added runner" />
-    <option name="LAST_COMMIT_MESSAGE" value="StereoType Practice&#10;-Added runner" />
+    <MESSAGE value="StereoType Practice&#10;-Dependency injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="StereoType Practice&#10;-Dependency injection" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
