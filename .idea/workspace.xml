@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="230057f9-fa5d-4f26-80a2-e7c85821e772" name="Changes" comment="StereoType Practice&#10;-Dependency injection">
-      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/loosely_coupled/CydeoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/loosely_coupled/FullTimeMentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/loosely_coupled/Mentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/loosely_coupled/MentorAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/loosely_coupled/PartTimeMentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/tightly_coupled/CydeoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/tightly_coupled/FullTimeMentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/tightly_coupled/Mentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/tightly_coupled/PartTimeMentor.java" afterDir="false" />
+    <list default="true" id="230057f9-fa5d-4f26-80a2-e7c85821e772" name="Changes" comment="Spring-Review&#10;-Review Topics">
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo/src/main/java/com/reca/ReCaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo/src/test/java/com/reca/SpringBootDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,10 +34,10 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Spring-Review" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Spring-Boot-Demo" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -71,7 +72,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Spring-Review",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "/Users/reca/IdeaProjects/JD-AL005/mySpringProject/mySpringProject",
     "node.js.detected.package.eslint": "true",
@@ -86,6 +87,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.StereoApp">
     <configuration name="AccountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bean_practice.AccountApp" />
@@ -103,6 +109,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReCaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-Boot-Demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.reca.ReCaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693666151967</updated>
       <workItem from="1693666153012" duration="7268000" />
-      <workItem from="1693678028424" duration="1428000" />
+      <workItem from="1693678028424" duration="4530000" />
     </task>
     <task id="LOCAL-00001" summary="Created project&#10;-Added a new module&#10;-Added bean_practice">
       <option name="closed" value="true" />
@@ -168,7 +181,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693678249738</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Spring-Review&#10;-Review Topics">
+      <option name="closed" value="true" />
+      <created>1693684066171</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693684066171</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Spring-Review&#10;-Review Topics">
+      <option name="closed" value="true" />
+      <created>1693684353072</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693684353072</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +220,8 @@
     <MESSAGE value="StereoType Practice&#10;-" />
     <MESSAGE value="StereoType Practice&#10;-Added runner" />
     <MESSAGE value="StereoType Practice&#10;-Dependency injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="StereoType Practice&#10;-Dependency injection" />
+    <MESSAGE value="Spring-Review&#10;-Review Topics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring-Review&#10;-Review Topics" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
