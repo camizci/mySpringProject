@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="230057f9-fa5d-4f26-80a2-e7c85821e772" name="Changes" comment="StereoType Practice&#10;-">
-      <change afterPath="$PROJECT_DIR$/spring-IoC-review/src/main/java/stereoType_Practice/StereoApp.java" afterDir="false" />
+    <list default="true" id="230057f9-fa5d-4f26-80a2-e7c85821e772" name="Changes" comment="StereoType Practice&#10;-Added runner">
+      <change afterPath="$PROJECT_DIR$/spring-IoC-review/src/main/java/stereoType_Practice/model/ExtraHours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-IoC-review/src/main/java/stereoType_Practice/StereoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-IoC-review/src/main/java/stereoType_Practice/StereoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-IoC-review/src/main/java/stereoType_Practice/model/DataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-IoC-review/src/main/java/stereoType_Practice/model/DataStructure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "bean__pratice",
     "jdk.selected.JAVA_MODULE": "11",
@@ -90,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693666151967</updated>
-      <workItem from="1693666153012" duration="6202000" />
+      <workItem from="1693666153012" duration="7268000" />
     </task>
     <task id="LOCAL-00001" summary="Created project&#10;-Added a new module&#10;-Added bean_practice">
       <option name="closed" value="true" />
@@ -116,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693672010874</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="StereoType Practice&#10;-Added runner">
+      <option name="closed" value="true" />
+      <created>1693673026649</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693673026649</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +147,7 @@
     <MESSAGE value="Created project&#10;-Added a new module&#10;-Added bean_practice" />
     <MESSAGE value="Bean_practice&#10;-Added runner for classes" />
     <MESSAGE value="StereoType Practice&#10;-" />
-    <option name="LAST_COMMIT_MESSAGE" value="StereoType Practice&#10;-" />
+    <MESSAGE value="StereoType Practice&#10;-Added runner" />
+    <option name="LAST_COMMIT_MESSAGE" value="StereoType Practice&#10;-Added runner" />
   </component>
 </project>

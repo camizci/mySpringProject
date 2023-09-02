@@ -15,5 +15,7 @@ public class StereoApp {
 
         MicroService microService = container.getBean(MicroService.class);
         System.out.println("microService.getTotalHours(100) = " + microService.getTotalHours(100));
+
+        System.out.println("dataStructure.getTotalHours() = " + dataStructure.getTotalHours());
     }
 }
