@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mySpringProject.iml" filepath="$PROJECT_DIR$/mySpringProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-IoC-review.iml" filepath="$PROJECT_DIR$/spring-IoC-review.iml" />
     </modules>
   </component>
 </project>

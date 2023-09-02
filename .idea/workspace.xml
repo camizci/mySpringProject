@@ -1,17 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="230057f9-fa5d-4f26-80a2-e7c85821e772" name="Changes" comment="" />
+    <list default="true" id="230057f9-fa5d-4f26-80a2-e7c85821e772" name="Changes" comment="StereoType Practice&#10;-Added runner">
+      <change afterPath="$PROJECT_DIR$/spring-IoC-review/src/main/java/stereoType_Practice/model/ExtraHours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-IoC-review/src/main/java/stereoType_Practice/StereoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-IoC-review/src/main/java/stereoType_Practice/StereoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-IoC-review/src/main/java/stereoType_Practice/model/DataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-IoC-review/src/main/java/stereoType_Practice/model/DataStructure.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
   <component name="ProjectId" id="2UqTXZ8a9mZmcnW5zifSacgYCUu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,9 +46,44 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "bean__pratice",
+    "jdk.selected.JAVA_MODULE": "11",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.StereoApp">
+    <configuration name="AccountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bean_practice.AccountApp" />
+      <module name="spring-IoC-review" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StereoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stereoType_Practice.StereoApp" />
+      <module name="spring-IoC-review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stereoType_Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StereoApp" />
+        <item itemvalue="Application.AccountApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,10 +92,62 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693666151967</updated>
+      <workItem from="1693666153012" duration="7268000" />
     </task>
+    <task id="LOCAL-00001" summary="Created project&#10;-Added a new module&#10;-Added bean_practice">
+      <option name="closed" value="true" />
+      <created>1693668323230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693668323230</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Bean_practice&#10;-Added runner for classes">
+      <option name="closed" value="true" />
+      <created>1693669241069</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693669241069</updated>
+    </task>
+    <task id="LOCAL-00003" summary="StereoType Practice&#10;-">
+      <option name="closed" value="true" />
+      <created>1693672010874</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693672010874</updated>
+    </task>
+    <task id="LOCAL-00004" summary="StereoType Practice&#10;-Added runner">
+      <option name="closed" value="true" />
+      <created>1693673026649</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693673026649</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created project&#10;-Added a new module&#10;-Added bean_practice" />
+    <MESSAGE value="Bean_practice&#10;-Added runner for classes" />
+    <MESSAGE value="StereoType Practice&#10;-" />
+    <MESSAGE value="StereoType Practice&#10;-Added runner" />
+    <option name="LAST_COMMIT_MESSAGE" value="StereoType Practice&#10;-Added runner" />
   </component>
 </project>
